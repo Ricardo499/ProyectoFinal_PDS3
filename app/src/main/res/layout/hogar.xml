@@ -70,7 +70,7 @@
         android:layout_height="135dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toStartOf="@+id/radioGroup4"
-        app:srcCompat="@drawable/refrigerador"
+        app:srcCompat="@drawable/estufa"
         tools:layout_editor_absoluteY="514dp" />
 
     <RadioGroup
@@ -200,7 +200,7 @@
         android:layout_height="146dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toStartOf="@+id/radioGroup2"
-        app:srcCompat="@drawable/estufa"
+        app:srcCompat="@drawable/refrigerador"
         tools:layout_editor_absoluteY="207dp" />
 
     <RadioGroup
