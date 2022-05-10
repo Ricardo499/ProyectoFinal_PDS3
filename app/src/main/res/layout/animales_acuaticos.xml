@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/texto_preguntas"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="118dp"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/caballo_del_mar"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09">
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos1"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton1_animales_acuaticos" />
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos2"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton2_animales_acuaticos" />
+
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos3"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton3_animales_acuaticos" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="128dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/cangrejo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="336dp" />
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36">
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos4"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton4_animales_acuaticos" />
+
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos5"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton5_animales_acuaticos" />
+
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos6"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton6_animales_acuaticos" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="136dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/estrella_del_mar"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="270dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623">
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos7"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton7_animales_acuaticos" />
+
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos8"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton8_animales_acuaticos"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos9"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton9_animales_acuaticos" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="135dp"
+        android:layout_height="127dp"
+        app:srcCompat="@drawable/pulpo"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="642dp" />
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="281dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88">
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos10"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton10_animales_acuaticos" />
+
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos11"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton11_animales_acuaticos" />
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos12"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton12_animales_acuaticos" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="137dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/tortuga_marina"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="256dp" />
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="264dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.13">
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos13"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton13_animales_terrestres" />
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos14"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton14_animales_acuaticos" />
+
+        <RadioButton
+            android:id="@+id/Radiobutton_animales_acuaticos15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/Radiobutton15_animales_acuaticos" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ButtonCalificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular" />
+
+    <Button
+        android:id="@+id/ButtonReniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reniciar_respuestas" />
+
+</LinearLayout>
