@@ -7,7 +7,18 @@
     android:background="#ADD8E6"
     android:gravity="center_horizontal"
     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
 
+        <ImageButton
+            android:id="@+id/Btnatras"
+            android:layout_width="52dp"
+            android:layout_height="46dp"
+            android:background="@drawable/atras" />
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
